@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon live-server app.js -e js, hbs"
+    "start": "nodemon  app.js -e js, hbs"
   },
   "keywords": [],
   "author": "",

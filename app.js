@@ -7,7 +7,7 @@ const geoCode = require("./src/utils/geocode");
 const foreCast = require("./src/utils/forecast");
 
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 console.log(__dirname);
 const publicDirectoryPath = path.join(__dirname, "./public");
